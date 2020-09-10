@@ -17,5 +17,5 @@ entity Authors {
   @cds.persistence.exists    
   entity V_CONTRACT {  
     key ID : String(10); 
-    PARTYID: String(20);
+    PARTYID: String(30);
     }  
