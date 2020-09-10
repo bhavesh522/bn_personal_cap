@@ -12,3 +12,10 @@ entity Authors {
     name : String;
     books : Association to many bookshop.Books on $self;
 }
+
+
+  @cds.persistence.exists    
+  entity V_CONTRACT {  
+    key ID : String(10); 
+    PARTYID: String(20);
+    }  
